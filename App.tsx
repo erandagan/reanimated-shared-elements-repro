@@ -16,7 +16,9 @@ function HomeScreen() {
 
       <Animated.Image
         sharedTransitionTag="image"
-        source={{ uri: "https://picsum.photos/200/300" }}
+        source={{
+          uri: "https://fastly.picsum.photos/id/588/400/400.jpg?hmac=YNof9QFmDmhg-cRnnDfLppdK6DTeHjr1FeP7jZ5ytk8",
+        }}
         style={{ width: 100, height: 100 }}
       />
       <Button title="Open Modal" onPress={() => nav.navigate("Modal")} />
@@ -31,7 +33,9 @@ function ModalScreen() {
     <View style={{ flex: 1, backgroundColor: "rgba(0,0,0,0.3)" }}>
       <Animated.Image
         sharedTransitionTag="image"
-        source={{ uri: "https://picsum.photos/200/300" }}
+        source={{
+          uri: "https://fastly.picsum.photos/id/588/400/400.jpg?hmac=YNof9QFmDmhg-cRnnDfLppdK6DTeHjr1FeP7jZ5ytk8",
+        }}
         style={{ width: 200, height: 200 }}
       />
       <Button
@@ -51,7 +55,9 @@ function DetailsScreen() {
       <Text>Details Screen</Text>
       <Animated.Image
         sharedTransitionTag="image"
-        source={{ uri: "https://picsum.photos/200/300" }}
+        source={{
+          uri: "https://fastly.picsum.photos/id/588/400/400.jpg?hmac=YNof9QFmDmhg-cRnnDfLppdK6DTeHjr1FeP7jZ5ytk8",
+        }}
         style={{ width: 300, height: 300 }}
       />
     </View>
