@@ -20,6 +20,7 @@ function HomeScreen() {
         style={{ width: 100, height: 100 }}
       />
       <Button title="Open Modal" onPress={() => nav.navigate("Modal")} />
+      <Button title="Go to Details" onPress={() => nav.navigate("Detail")} />
     </View>
   );
 }
